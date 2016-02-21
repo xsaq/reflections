@@ -41,6 +41,8 @@ organized? How would branches help?
 	глубокого рефакторинга, или перехода на другую версию IDE
 
 How do the diagrams help you visualize the branch structure?
+	Диаграммы показывают последовательность коммитов в каждой ветке. На
+	диаграмме видно, в какой момент было выполнено ветвление.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
