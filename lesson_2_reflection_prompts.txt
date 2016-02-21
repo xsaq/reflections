@@ -1,0 +1,32 @@
+What happens when you initialize a repository? Why do you need to do it?
+	Инициализация включает механизм отслеживания истории изменения файлов
+	в той папке, в которой была выполнена команда git init. Для выполнения
+	своих функций git нужны вспомогательные файлы, которые будут размещены
+	в скрытой от пользователя папке ".git". Эта папка и будет создана после
+	выполнения инициализации. Если инициализация не была выполнена, git
+	не может отслеживать историю изменения файлов.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+	Staging area позволяет отбирать те файлы рабочей директории, которые
+	далее будут включены в ближайший коммит. Если рабочая директория - это все файлы
+	в папке проекта, и если репозиторий - это совкупность всех файлов с историей
+	их изменения, разделенной логично во времени на коммиты, то staging area - это
+	этап на пути включения одного или нескольких файлов рабочей директории
+	в репозиторий. Staging area позволяет вести логичный отбор файлов для
+	комметирования, и вообще отбор файлов, историю изменения которых
+	требуется отслеживать.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
