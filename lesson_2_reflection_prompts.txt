@@ -46,6 +46,12 @@ How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+	Результатом слияния двух веток проекта будет третья версия, включающая
+	все изменения файлов, выполненные по каждой из веток. Даже после
+	удаления метки ветки ветвление будет наглядно представлено в диаграмме.
+	Команда git log --graph --oneline наглядно покажет, какой коммит был
+	первым в ветке, все коммиты в ветке, и коммит, который стал общим для двух веток
+	после слияния.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
