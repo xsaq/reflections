@@ -13,7 +13,17 @@ When would you want to use a remote repository rather than keeping all your work
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    Пусть файл был изменен локально. Автоматическая выгрузка из удаленного
+    репозитория может вызвать конфликт. Или, возможно, даже потерю всех 
+    локальных изменений. Хотя скорее автоматическая выгрузка потерпит
+    неудачу как в случае с попыткой переключиться на другую ветку, когда
+    есть отложенные коммиты. Хотя для некоторых рабочих мест автоматическая
+    выгрузка весьма удобна - например, если необходимо иметь локально
+    только для компиляции и запуска, но не для изменений самую свежую версию 
+    проекта. В целом, вопрос о конфликте локальных и удаленных изменений решается,
+    по всей видимости, с использованием веток. Локальная работа может проводиться
+    в специальной ветке local, в то время как ветка master может автоматически 
+    обнавляться с репозитория на Github.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
