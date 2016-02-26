@@ -1,11 +1,36 @@
 When would you want to use a remote repository rather than keeping all your work local?
-  Прежде всего Github предоставляет облачное хранилище файлов проекта.
-  Любой сколько-нибудь развитый программный проект следует хранить на Github
-  и быть уверенным, что файлы не будет утрачены, например, вместе с выходом из строя
-  жесткого диска на локальном компьютере. При этом доступ к проекту можно получить с любого
-  подключенного к интернету устройства. Кроме того, доступ может быть ограничен или быть публичным.
-  С другой стороны Github - это, кончено, же сервис контроля версий файлов. Сайт
-  предоставляет возможности локального git: ветвление и создание коммитов. При этом
-  можно создавать файлы, редактировать их и удалять. В целом: любой open source проект
-  следут хранить на Github - все приемущества очевидны. Проекты с закрытым кодом
-  потребуют небольшой платы для размещения в частном доступе.
+    Прежде всего Github предоставляет облачное хранилище файлов проекта.
+    Любой сколько-нибудь развитый программный проект следует хранить на Github
+    и быть уверенным, что файлы не будет утрачены, например, вместе с выходом из строя
+    жесткого диска на локальном компьютере. При этом доступ к проекту можно получить с любого
+    подключенного к интернету устройства. Кроме того, доступ может быть ограничен или быть публичным.
+    С другой стороны Github - это, кончено, же сервис контроля версий файлов. Сайт
+    предоставляет возможности локального git: ветвление и создание коммитов. При этом
+    можно создавать файлы, редактировать их и удалять. В целом: любой open source проект
+    следут хранить на Github - все приемущества очевидны. Проекты с закрытым кодом
+    потребуют небольшой платы для размещения в частном доступе.
+
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+    Fill in your answer here
+
+Describe the differences between forks, clones, and branches.  When would you
+use one instead of another?
+
+    Fill in your answer here
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+    Fill in your answer here
+
+How would you collaborate without using Git or GitHub?  What would be easier,
+and what would be harder?
+
+    Fill in your answer here
+
+When would you want to make changes in a separate branch rather than directly in
+master?  What benefits does each approach have?
+
+    Fill in your answer here
