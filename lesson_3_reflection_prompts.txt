@@ -71,7 +71,15 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    Коллективная работа может быть организована с использованием облачного хранилища.
+    Примером может служить Google Drive, Yandex Диск, Облако Mail.ru и др. Без
+    git потребовалось бы создавать копии изменяемых файлов. Команде потребовалась бы
+    определенные договоренности именования файлов проекта, по процедуре ведения
+    истории. В связи с обилием имен файлов возникли бы дополнительные трудности при 
+    сборке рабочей версии проекта. Git и GitHub фактически стандартизируют и автоматизируют
+    задачи контроля версий, хранения файлов проекта и орагнизации коллективной разработки.
+    При этом навыки, полученные разработчиком при командном использовании git и GitHub
+    могут быть использованы им при работе и в другой команде, использующей GitHub.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
